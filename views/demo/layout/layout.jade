@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    block head
+  body
+    block header
+      div.header= header
+    block content
+      div.box.index
+        span.triangle
+    block footer
+      include footer.jade
+    block scripts

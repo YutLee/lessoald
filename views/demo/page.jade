@@ -1,0 +1,26 @@
+extends ./layout/layout.jade
+
+append head
+  link(rel='stylesheet', href='/styles/demo/page.css')
+
+block header
+
+block content
+  div.page.box
+    div.content
+    div.terminal
+      span.android
+      span.iphone
+      span.wechat
+    div.sprite
+      span.sprite-00
+      span.sprite-01
+      span.sprite-02
+      span.sprite-03
+    div.left-top-ico.cc
+    div.right-top-ico.cc
+    div.left-bottom-ico.cc
+
+append scripts
+  script(src='/scripts/common.js')
+  script(src='/scripts/demo/page/main.js')

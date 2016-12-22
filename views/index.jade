@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div.flex-center.position-ref.full-height
+    div.content
+      div.title.m-b-md #{title}
+  div
+    ul
+     each val, key in data
+       li= key + ' : ' + val
+
+  script(src='/scripts/common.js')
+  script(src='/scripts/index/main.js')

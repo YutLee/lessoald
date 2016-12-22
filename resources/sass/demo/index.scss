@@ -1,0 +1,18 @@
+@import './base/public';
+@import './component/header';
+@import './component/footer';
+@import './component/box';
+
+.index {
+    background-color : #e5e5e5;
+    .triangle {
+        position : absolute;
+        top : 50%;
+        left : 50%;
+
+        margin-top : -30px;
+        margin-left : -30px;
+
+        @include createCircle(#fff, 30px);
+    }
+}

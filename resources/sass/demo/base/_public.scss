@@ -1,0 +1,24 @@
+@import 'mixin';
+@import 'reset';
+
+html,
+body {
+    height : 100%;
+}
+
+body {
+    font-family : Helvetica,Arial,sans-serif;
+    font-size : 14px;
+
+    background-color : #fff;
+}
+
+// test autoprefixer
+.example {
+    display : flex;
+
+    user-select : none;
+    transition : all .5s;
+
+    background : linear-gradient(to bottom, white, black);
+}
